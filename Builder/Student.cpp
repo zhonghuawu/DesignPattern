@@ -38,11 +38,13 @@ string Student::toString() const {
 	return string(*this);
 }
 
-Student::operator std::string() const {
+Student::operator string() const
+{
 	stringstream ss;
 	ss << "student: [id=" << id << ", name=" << name << ", password=" << password << ", gender=" << gender << ", address=" << address << "]";
 	return ss.str();
 }
+
 
 ostream& operator<<(ostream& out, Student stu) {
 	out << "student: [id=" << stu.id << ", name=" << stu.name << ", password=" << stu.password << ", gender=" << stu.gender << ", address=" << stu.address << "]";

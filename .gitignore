@@ -176,7 +176,7 @@ UpgradeLog*.htm
 *.ldf
 
 # Business Intelligence projects
-*.rdl.data
+*.rdl.com.huaa.learning.data
 *.bim.layout
 *.bim_*.settings
 
